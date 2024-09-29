@@ -25,6 +25,21 @@ This C++ project provides a command-line interface for managing student records,
    - The program will display a menu with options to create, search, display, delete, or modify student records.
    - Choose options by entering the corresponding number and follow the on-screen prompts.
 
+## Time and Space Complexity
+- **Time Complexity**:  
+  - Input Reading: O(n)  
+  - Record Creation: O(1)  
+  - Record Display (All): O(n)  
+  - Record Display (Specific): O(n)  
+  - Record Modification: O(n)  
+  - Record Deletion: O(n)  
+  - Overall: O(n)
+
+- **Space Complexity**:  
+  - Storage for student records: O(n)  
+  - Additional variables: O(1)  
+  - Overall: O(n)
+
 ## Code Structure
 
 - **`student` Class:**
